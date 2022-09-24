@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notification Page Challenge/title>
+    <title>Notification Page Challenge</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
     <meta name="description" content="This is the Notification Page Challenge by frontend mentor">
     <meta name="keywords" content="frontend mentor, coding challenge, notification page, frontend development projects">
@@ -20,7 +20,88 @@
     <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
+    <main class="container">
+        <div class="notification-bar">
+            <div class="notification-number">
+                <h2 class="notification-title">Notifications</h2>
+                <span id="notification-box" class="notification-box-design">3</span>
+            </div>
+            <div class="read-all-btn">
+                <button>Mark all as read</button>
+            </div>
+        </div>
+        <div class="notification-sec flow">
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-mark-webber.webp" alt="Picture of Mark Webber">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Mark Webber</span> reacted to your recent post <span class="recent-post">My first tournament today!</span></p>
+                    <p class="date">1m ago</p>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-angela-gray.webp" alt="Picture of Angela Gray">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Angela Gray</span> followed you</p>
+                    <p class="date">5m ago</p>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-jacob-thompson.webp" alt="Picture of Jacob Thompson">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Jacob Thompson</span> has joined your group <span class="group-name">Chess Club</span></p>
+                    <p class="date">1 day ago</p>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-rizky-hasanuddin.webp" alt="Picture of Rizky Hasanuddin">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Rizky Hasanuddin</span> sent you a private message</p>
+                    <p class="date">5 days ago</p>
+                    <div class="private-message">
+                        <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-kimberly-smith.webp" alt="Picture of Kimberly Smith">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Kimberly Smith</span> commented on your picture</p>
+                    <p class="date">1 week ago</p>
+                    <div class="commented-img">
+                        <img src="images/image-chess.webp" alt="A women playing Chess">
+                    </div>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-nathan-peterson.webp" alt="Picture of Nathan Peterson">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Nathan Peterson</span> reacted to your recent post <span class="recent-post">5 end&#8211;game strategies to increase your win rate</span></p>
+                    <p class="date">2 weeks ago</p>
+                </div>
+            </div>
+            <div class="notification-card">
+                <div class="card-image">
+                    <img src="images/avatar-anna-kim.webp" alt="Picture of Anna Kim">
+                </div>
+                <div class="card-content">
+                    <p class="notification-text"><span class="username">Anna Kim</span> left the group <span class="group-name">Chess Club</span></p>
+                    <p class="date">2 weeks ago</p>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="script/main.js"></script>
 </body>
 </html>
