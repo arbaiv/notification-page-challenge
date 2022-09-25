@@ -22,16 +22,16 @@
 <body>
     <main class="container">
         <div class="notification-bar">
-            <div class="notification-number">
+            <div class="notification-number" aria-live="assertive">
                 <h2 class="notification-title">Notifications</h2>
                 <span id="notification-box" class="notification-box-design">3</span>
             </div>
-            <div class="read-all-btn">
+            <div id="read-all-btn" class="read-all-btn">
                 <button>Mark all as read</button>
             </div>
         </div>
         <div class="notification-sec flow">
-            <div class="notification-card">
+            <div class="notification-card" data-status="unread" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-mark-webber.webp" alt="Picture of Mark Webber">
                 </div>
@@ -40,7 +40,7 @@
                     <p class="date">1m ago</p>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="unread" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-angela-gray.webp" alt="Picture of Angela Gray">
                 </div>
@@ -49,7 +49,7 @@
                     <p class="date">5m ago</p>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="unread" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-jacob-thompson.webp" alt="Picture of Jacob Thompson">
                 </div>
@@ -58,7 +58,7 @@
                     <p class="date">1 day ago</p>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="read" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-rizky-hasanuddin.webp" alt="Picture of Rizky Hasanuddin">
                 </div>
@@ -70,19 +70,21 @@
                     </div>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="read" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-kimberly-smith.webp" alt="Picture of Kimberly Smith">
                 </div>
-                <div class="card-content">
-                    <p class="notification-text"><span class="username">Kimberly Smith</span> commented on your picture</p>
-                    <p class="date">1 week ago</p>
+                <div class="card-content" id="commented-img-card">
+                    <div id="commented-img-card-text">
+                        <p class="notification-text"><span class="username">Kimberly Smith</span> commented on your picture</p>
+                        <p class="date">1 week ago</p>
+                    </div>
                     <div class="commented-img">
                         <img src="images/image-chess.webp" alt="A women playing Chess">
                     </div>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="read" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-nathan-peterson.webp" alt="Picture of Nathan Peterson">
                 </div>
@@ -91,7 +93,7 @@
                     <p class="date">2 weeks ago</p>
                 </div>
             </div>
-            <div class="notification-card">
+            <div class="notification-card" data-status="read" tabindex="0">
                 <div class="card-image">
                     <img src="images/avatar-anna-kim.webp" alt="Picture of Anna Kim">
                 </div>
