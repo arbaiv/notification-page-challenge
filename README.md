@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/arbaiv/notification-page-challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://astonishing-duckanoo-1f3b98.netlify.app/)
 
 ## My process
 
@@ -50,6 +50,11 @@ Users should be able to:
 ### What I learned
 
 I was able to learn and practice arrow function through this project. 
+
+### Continued development
+
+I thought that I would be able to learn read & unread functionality through this project and learn some advance JS concepts, but this project wasn't that challenging. So, I would be taking some more challenging projects to keep working on my JS.
+
 
 ## Author
 
